@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5eaea"
+    >
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="150dp"
+        android:src="@drawable/result"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+    />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:layout_marginTop="200dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="50dp"
+            android:textColor="#FFAA05"
+            android:textStyle="bold|italic"
+            />
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/bg_green_corner_1000"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:text="0"
+            android:textSize="90dp"
+            android:textColor="#FFAA05"
+            android:textStyle="bold|italic"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_green_corner_10_top"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            />
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Continue"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@drawable/bg_orange_corner_30"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

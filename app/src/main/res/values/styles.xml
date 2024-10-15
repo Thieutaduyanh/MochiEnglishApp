@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Màu của thanh trạng thái -->
+        <item name="android:statusBarColor">#fbcc0c</item>
+    </style>
+
+    <style name="TopicList" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Màu của thanh trạng thái -->
+        <item name="android:statusBarColor">#ffffff</item>
+    </style>
+
+    <style name="ScoreList" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Màu của thanh trạng thái -->
+        <item name="android:statusBarColor">#f5eaea</item>
+    </style>
+</resources>
